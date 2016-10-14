@@ -16,27 +16,38 @@
 <body>
    <form id="registrationForm">
        <div class="formInput">
-         <label for="owner">First Name</label>
-         <input type="text" class="formName" />
-         <label for="owner">Last Name</label>
-         <input type="text" class="formName" />
-         <button type="button" name="register">Register</button>
+         <label for="firstName">First Name</label>
+         <input type="text" name="firstName" id="firstName" class="formName" />
+         <label for="lastName">Last Name</label>
+         <input type="text" name="lastName" id="lastName" class="formName" />
+         <button type="button" class="ownerRegister" name="register">Register</button>
        </div>
+    </form>
+    <form id="petsForm">
+
 
        <div class="formInput">
            <div id="dropDown">
-               <select class="" name="">
+               <select class="dropdownList" name="">
 
                </select>
            </div>
-         <label for="pet">First Name</label>
-         <input type="text" class="formName" />
-         <label for="pet">Pet Name</label>
-         <input type="text" class="formName" />
-         <label for="pet">Color</label>
-         <input type="text" class="formName" />
-         <button type="button" name="register">Register</button>
+
+         <label for="petName">Name</label>
+         <input type="text" name="petName" id="petName" class="formName" />
+         <label for="breed">Breed</label>
+         <input type="text" name="breed" id="breed" class="formName" />
+         <label for="color">Color</label>
+         <input type="text" name="color" id="color" class="formName" />
+         <button type="button" class="petRegister" name="register">Register</button>
        </div>
+     </form>
+   </div>
+   <div class="petInfoTable">
+     <table>
+       
+
+     </table>
 
    </div>
 
